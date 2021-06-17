@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Viaoda Libre';
+    color: #F3F4ED;
+    background-color: #424642;
+}
+
+#nav-bar {
+    background-color: #C06014;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    float: left;
+    width: 100%;
+}
+
+.nav-link:hover {
+    background-color: #536162;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30p !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+#main {
+    text-align: center;
+    background-color: #424642;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.container h1 {
+    padding-bottom: 10px;
+}
+
+#features1 {
+    text-align: center;
+    padding: 10% 15%;
+}
+
+#features {
+    text-align: center;
+    padding: 10% 15%;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.features1 h3 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.features h3 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::after {
+    content: '';
+    background: #F3F4ED;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translatey(8px);
+}
+
+#features .btn-primary {
+    box-shadow: none;
+    padding: 10px 25px;
+    border: none;
+    align-content: center;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#action {
+    background-color: #536162;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.main {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+#footer {
+    background-color: black;
+    color: #fff;
+    padding: 4% 25%;
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 64px;
+    padding: 4px;
+}
+
+.navbar-brand {
+    color: #F3F4ED;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #F3F4ED;
+}
+
+.btn-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    outline-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-dark:hover {
+    background-color: #424642;
+    outline-color: #F3F4ED;
+}
+
+.btn-danger {
+    background-color: #c061147e;
+    outline-color: #C06014;
+}
+
+.btn-danger:hover {
+    background-color: #C06014;
+    outline-color: #F3F4ED;
+}
+
+.table-danger,
+.table-danger>tr,
+.table-danger>th {
+    background-color: #C06014;
+    color: #F3F4ED;
+}
+
+.table-light,
+.table-light>tr,
+.table-light>td {
+    background-color: #F3F4ED;
+    color: #424642;
+}
+
+.table-info,
+.table-info>tr,
+.table-info>td {
+    background-color: #536162;
+    color: #F3F4ED;
+}
